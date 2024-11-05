@@ -1,7 +1,96 @@
-# Operating system files
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs specific
+.idea/
+.vscode/
+*.swp
+
+# Virtual environment
+venv/
+ENV/
+.env/
+.venv/
+env.bak/
+env/
+env/
+
+# System files
 .DS_Store
 Thumbs.db
 
+# Python-specific temporary files
+*.~*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.env
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+*.MDB
+*.data
+*.db-journal
 # Temporary files
 *.log
 *.tmp
